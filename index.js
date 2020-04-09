@@ -24,3 +24,8 @@ function appendKitten(name){
   appendKitten = [...kittens, "Broom"]
   return appendKitten
 }
+
+function prependKitten(name){
+  prependKitten = ["Arnold", ...kittens]
+  return prependKitten
+}
